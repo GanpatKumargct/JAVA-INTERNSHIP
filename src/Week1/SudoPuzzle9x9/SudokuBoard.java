@@ -2,7 +2,7 @@ package Week1.SudoPuzzle9x9;
 
 public class SudokuBoard {
     private static final int SIZE = 9;
-    private int[][] board;
+    private final int[][] board;
 
     public SudokuBoard(int[][] board) {
         this.board = board;
