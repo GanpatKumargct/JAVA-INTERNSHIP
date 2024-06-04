@@ -56,7 +56,6 @@ public class SudokuBoard {
                 System.out.print(" ");
             }
             System.out.println();
-
             if ((r + 1) % 3 == 0) {
                 System.out.println();
             }
