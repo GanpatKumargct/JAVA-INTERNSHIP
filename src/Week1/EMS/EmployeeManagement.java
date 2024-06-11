@@ -77,13 +77,13 @@ public class EmployeeManagement {
         return null;
     }
 
-//    public String findDepartmentById(int departmentId) {
-//        for (Employee emp : employees) {
-//            if (emp.getDepartment().getId() == departmentId) {
-//                return emp.getDepartment();
-//            }
-//        }
-//        return null;
-//    }
+    public Department findDepartmentById(int departmentId) {
+        for (Employee emp : employees) {
+            if (emp.getId() == departmentId) {
+                return (Department) emp.getDepartment();
+            }
+        }
+        return null;
+    }
 }
 
