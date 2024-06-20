@@ -36,7 +36,7 @@ public class JobScheduler {
 
                 // Simulate job execution
                 try {
-                    Thread.sleep(job.executionTime * 1000);
+                    Thread.sleep(job.executionTime * 1000L);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
