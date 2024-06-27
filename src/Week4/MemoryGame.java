@@ -8,7 +8,7 @@ public class MemoryGame {
         SwingUtilities.invokeLater(() -> {
             JFrame mainMenu = new JFrame("Memory Game");
             mainMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            mainMenu.setSize(400, 300);
+            mainMenu.setSize(200, 200);
             mainMenu.setLayout(new BorderLayout());
 
             JPanel buttonPanel = new JPanel();

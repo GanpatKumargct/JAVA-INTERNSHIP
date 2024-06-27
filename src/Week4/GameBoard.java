@@ -15,7 +15,7 @@ public class GameBoard extends JFrame {
 
     public GameBoard() {
         setTitle("Memory Game");
-        setSize(500, 500);
+        setSize(300, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         getContentPane().setBackground(Color.pink);
